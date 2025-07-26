@@ -15,7 +15,7 @@ class secondLargest {
             }
         }
         System.out.println("largest: "+largest);
-        int sLargest = -1;
+        int sLargest = -1; // u can also assign a[0] or for negative values , u can assign as sLargsest  = Integer.MIN_VALUE;
         for(int i=0;i<n;i++){
             if(arr[i]>sLargest && arr[i]!=largest){
                 sLargest = arr[i];
