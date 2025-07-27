@@ -13,7 +13,10 @@ class MinAndMax {
        for(int i=0;i<size;i++){
            if(arr[i] > max){
                max = arr[i];
-           }else if(arr[i] < min){
+           }
+       }
+       for(int i=0;i<size;i++){
+           if(arr[i] < min){
                min = arr[i];
            }
        }
